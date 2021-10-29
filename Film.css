@@ -1,0 +1,105 @@
+﻿body {
+    background-color: #f6aa73;
+    font-family: Gabriola;
+    font-size:20px
+}
+h1 {
+    color:#1b7e28 ;
+    text-align: center;
+    text-decoration-color: initial;
+}
+
+h2 {
+
+    text-decoration-color: initial;
+}
+
+nav {
+    text-decoration-style: solid
+}
+main {
+    align-content:center
+}
+#trailer{
+  
+    text-align:center;
+}
+
+a:link {
+    color: #d96d20;
+}
+
+
+a:visited {
+    color: #237148;
+}
+
+a:hover {
+    color: #237148;
+    background-color: #e98478;
+    text-decoration: none;
+}
+#footer_content {
+    height: 115px;
+    width: 100%;
+    border-top: #FAC785 solid 15px;
+    margin: 15px auto 0 auto;
+    background: #3C3742;
+    z-index: 99
+}
+
+#footer {
+    border-top: #FAC785 solid 15px;
+    margin: 15px auto 0 auto;
+    background: #3C3742;
+    z-index: 99;
+    font-family: Gabriola;
+}
+
+.riga_firma {
+    width: 980px;
+    margin: 15px auto 0;
+    font-family: Gabriola;
+}
+
+/*#bottone {
+    position: relative;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Gabriola
+}
+*/
+
+#img3 {
+    float: right;
+    width: 300px;
+    height: 170px;
+}
+form {
+    border-radius:10px;
+    font-family:Gabriola;
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+.button {
+    font-family: Gabriola;
+    border-radius: 10px;
+    border: #FAC785;
+}
+#text {
+    font-family: Gabriola;
+    border-radius: 10px;
+    border: #FAC785;
+}
+textarea {
+    font-family: Gabriola;
+    border-radius: 10px;
+    border: #FAC785;
+    width: 350px;
+    height: 120px;
+    font-size: 20px
+}

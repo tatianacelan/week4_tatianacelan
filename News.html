@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>News</title>
+
+    <link href="Film.css" rel="stylesheet" />
+    <script src="film.js"></script>
+
+</head>
+
+<body onload="checkLoggedUser()" >
+    <header>
+        <h2> Rimani aggiornato! </h2>
+    </header>
+
+    <nav>
+        <a href="HomeFilm.html">Home</a>
+        <a href="SchedaTecnica.html">Sheda Tecnica</a>
+        <a href="News.html">News </a>
+    </nav>
+
+
+    <main>
+        <article>
+            <p>
+                <h3>Vuoi sapere cosa ne pensa la critica? ecco alcune recensioni che abbiamo pensato potresti gradire </h3>
+
+                <div>
+                    <img style="margin-right:5px;" src="https://pad.mymovies.it/dizionario/img/4h.gif" alt="Valutazione 4 stelle su cinque">
+                    La storia è una delle più belle da essere raccontate, Grace una dei più bei personaggi da essere rappresentato,
+                    Nicole Kidman e Tim Roth due fra gli attori più capaci.
+                    Perfetto per chi voglia conoscere in minima parte la vita di Grace,
+                    ma che non sia interessato alla realtà storica ( perchè di vero non si sa bene quanto ci sia) ,
+                    per chi voglia passare qualche ora piacevole, ma non troppo impegnativa
+
+                </div>
+                <div>
+                    <img style="margin-right:5px;" src="https://pad.mymovies.it/dizionario/img/4h.gif" alt="Valutazione 4 stelle su cinque">
+                    Un film coretto, romantico e di buon gusto
+                </div>
+            </p>
+
+        </article>
+        <article>
+            <h3>
+                Lascia anche tu una recenzione!
+                <a href="PaginaRecensioni.html"> Pagina Recensioni </a>
+            </h3>
+        </article>
+        <p> </p>
+
+        <article>
+            <h4> Cosa aspetti? </h4>
+            <p> Se vuoi essere contattato alle eventuali serate dedicate basta poco..</p>
+
+        </article>
+        <div>Per inscriverti alla newsletter inserisci il tuo nome e clicca subscribe</div>
+
+        <form onsubmit="save(); hideForm()">
+            <label>Nome</label>
+            <input type="text" placeholder="lascia il tuo nome" onchange="changeLogInPage()" required="required" />
+            <input class="button" value="subscribe" type="submit">
+
+            <br /> <br />
+        </form>
+        <button id="logoutButton" type="button" value="unsubscribe" style="display:none" onclick="logout()">Logout </button>
+
+
+        <a href="HomeFilm.html">Torna alla home..</a>
+
+
+    </main>
+
+    <br />   <br />
+
+    <div id="footer_content">
+        <div id="footer">
+            <div class="riga_firma">
+                <p>
+                    &copy; tatiana celan  2021 <span>CINEMA A CASA </span> 
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
